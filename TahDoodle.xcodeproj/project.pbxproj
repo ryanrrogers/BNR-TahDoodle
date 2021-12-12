@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94EAB9502766821500018F06 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB94F2766821500018F06 /* Tests_iOS.swift */; };
+		94EAB9522766821500018F06 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9512766821500018F06 /* Tests_iOSLaunchTests.swift */; };
+		94EAB95C2766821500018F06 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB95B2766821500018F06 /* Tests_macOS.swift */; };
+		94EAB95E2766821500018F06 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB95D2766821500018F06 /* Tests_macOSLaunchTests.swift */; };
+		94EAB95F2766821500018F06 /* TahDoodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9372766821400018F06 /* TahDoodleApp.swift */; };
+		94EAB9602766821500018F06 /* TahDoodleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9372766821400018F06 /* TahDoodleApp.swift */; };
+		94EAB9612766821500018F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9382766821400018F06 /* ContentView.swift */; };
+		94EAB9622766821500018F06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9382766821400018F06 /* ContentView.swift */; };
+		94EAB9632766821500018F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EAB9392766821500018F06 /* Assets.xcassets */; };
+		94EAB9642766821500018F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EAB9392766821500018F06 /* Assets.xcassets */; };
+		94EAB9742766833700018F06 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9732766833700018F06 /* TaskView.swift */; };
+		94EAB9752766833700018F06 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9732766833700018F06 /* TaskView.swift */; };
+		94EAB9772766865100018F06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9762766865100018F06 /* Task.swift */; };
+		94EAB9782766865100018F06 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB9762766865100018F06 /* Task.swift */; };
+		94EAB97A276686C500018F06 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB979276686C500018F06 /* TaskStore.swift */; };
+		94EAB97B276686C500018F06 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB979276686C500018F06 /* TaskStore.swift */; };
+		94EAB97D276689BC00018F06 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB97C276689BC00018F06 /* TaskListView.swift */; };
+		94EAB97E276689BC00018F06 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EAB97C276689BC00018F06 /* TaskListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94EAB94C2766821500018F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EAB9322766821400018F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EAB93D2766821500018F06;
+			remoteInfo = "TahDoodle (iOS)";
+		};
+		94EAB9582766821500018F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EAB9322766821400018F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EAB9432766821500018F06;
+			remoteInfo = "TahDoodle (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94EAB9372766821400018F06 /* TahDoodleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahDoodleApp.swift; sourceTree = "<group>"; };
+		94EAB9382766821400018F06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94EAB9392766821500018F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EAB93E2766821500018F06 /* TahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EAB9442766821500018F06 /* TahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EAB9462766821500018F06 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		94EAB94B2766821500018F06 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EAB94F2766821500018F06 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		94EAB9512766821500018F06 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		94EAB9572766821500018F06 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EAB95B2766821500018F06 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		94EAB95D2766821500018F06 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		94EAB9732766833700018F06 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		94EAB9762766865100018F06 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		94EAB979276686C500018F06 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		94EAB97C276689BC00018F06 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EAB93B2766821500018F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9412766821500018F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9482766821500018F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9542766821500018F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94EAB9312766821400018F06 = {
+			isa = PBXGroup;
+			children = (
+				94EAB9362766821400018F06 /* Shared */,
+				94EAB9452766821500018F06 /* macOS */,
+				94EAB94E2766821500018F06 /* Tests iOS */,
+				94EAB95A2766821500018F06 /* Tests macOS */,
+				94EAB93F2766821500018F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94EAB9362766821400018F06 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				94EAB9372766821400018F06 /* TahDoodleApp.swift */,
+				94EAB9382766821400018F06 /* ContentView.swift */,
+				94EAB9732766833700018F06 /* TaskView.swift */,
+				94EAB9762766865100018F06 /* Task.swift */,
+				94EAB979276686C500018F06 /* TaskStore.swift */,
+				94EAB97C276689BC00018F06 /* TaskListView.swift */,
+				94EAB9392766821500018F06 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		94EAB93F2766821500018F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EAB93E2766821500018F06 /* TahDoodle.app */,
+				94EAB9442766821500018F06 /* TahDoodle.app */,
+				94EAB94B2766821500018F06 /* Tests iOS.xctest */,
+				94EAB9572766821500018F06 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EAB9452766821500018F06 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				94EAB9462766821500018F06 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		94EAB94E2766821500018F06 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94EAB94F2766821500018F06 /* Tests_iOS.swift */,
+				94EAB9512766821500018F06 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		94EAB95A2766821500018F06 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				94EAB95B2766821500018F06 /* Tests_macOS.swift */,
+				94EAB95D2766821500018F06 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EAB93D2766821500018F06 /* TahDoodle (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EAB9672766821500018F06 /* Build configuration list for PBXNativeTarget "TahDoodle (iOS)" */;
+			buildPhases = (
+				94EAB93A2766821500018F06 /* Sources */,
+				94EAB93B2766821500018F06 /* Frameworks */,
+				94EAB93C2766821500018F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TahDoodle (iOS)";
+			productName = "TahDoodle (iOS)";
+			productReference = 94EAB93E2766821500018F06 /* TahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EAB9432766821500018F06 /* TahDoodle (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EAB96A2766821500018F06 /* Build configuration list for PBXNativeTarget "TahDoodle (macOS)" */;
+			buildPhases = (
+				94EAB9402766821500018F06 /* Sources */,
+				94EAB9412766821500018F06 /* Frameworks */,
+				94EAB9422766821500018F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TahDoodle (macOS)";
+			productName = "TahDoodle (macOS)";
+			productReference = 94EAB9442766821500018F06 /* TahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EAB94A2766821500018F06 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EAB96D2766821500018F06 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				94EAB9472766821500018F06 /* Sources */,
+				94EAB9482766821500018F06 /* Frameworks */,
+				94EAB9492766821500018F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EAB94D2766821500018F06 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 94EAB94B2766821500018F06 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		94EAB9562766821500018F06 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EAB9702766821500018F06 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				94EAB9532766821500018F06 /* Sources */,
+				94EAB9542766821500018F06 /* Frameworks */,
+				94EAB9552766821500018F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EAB9592766821500018F06 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 94EAB9572766821500018F06 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EAB9322766821400018F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					94EAB93D2766821500018F06 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					94EAB9432766821500018F06 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					94EAB94A2766821500018F06 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 94EAB93D2766821500018F06;
+					};
+					94EAB9562766821500018F06 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 94EAB9432766821500018F06;
+					};
+				};
+			};
+			buildConfigurationList = 94EAB9352766821400018F06 /* Build configuration list for PBXProject "TahDoodle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94EAB9312766821400018F06;
+			productRefGroup = 94EAB93F2766821500018F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EAB93D2766821500018F06 /* TahDoodle (iOS) */,
+				94EAB9432766821500018F06 /* TahDoodle (macOS) */,
+				94EAB94A2766821500018F06 /* Tests iOS */,
+				94EAB9562766821500018F06 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EAB93C2766821500018F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB9632766821500018F06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9422766821500018F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB9642766821500018F06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9492766821500018F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9552766821500018F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EAB93A2766821500018F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB97A276686C500018F06 /* TaskStore.swift in Sources */,
+				94EAB9772766865100018F06 /* Task.swift in Sources */,
+				94EAB9742766833700018F06 /* TaskView.swift in Sources */,
+				94EAB9612766821500018F06 /* ContentView.swift in Sources */,
+				94EAB95F2766821500018F06 /* TahDoodleApp.swift in Sources */,
+				94EAB97D276689BC00018F06 /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9402766821500018F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB97B276686C500018F06 /* TaskStore.swift in Sources */,
+				94EAB9782766865100018F06 /* Task.swift in Sources */,
+				94EAB9752766833700018F06 /* TaskView.swift in Sources */,
+				94EAB9622766821500018F06 /* ContentView.swift in Sources */,
+				94EAB9602766821500018F06 /* TahDoodleApp.swift in Sources */,
+				94EAB97E276689BC00018F06 /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9472766821500018F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB9522766821500018F06 /* Tests_iOSLaunchTests.swift in Sources */,
+				94EAB9502766821500018F06 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EAB9532766821500018F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EAB95E2766821500018F06 /* Tests_macOSLaunchTests.swift in Sources */,
+				94EAB95C2766821500018F06 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94EAB94D2766821500018F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EAB93D2766821500018F06 /* TahDoodle (iOS) */;
+			targetProxy = 94EAB94C2766821500018F06 /* PBXContainerItemProxy */;
+		};
+		94EAB9592766821500018F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EAB9432766821500018F06 /* TahDoodle (macOS) */;
+			targetProxy = 94EAB9582766821500018F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94EAB9652766821500018F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94EAB9662766821500018F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		94EAB9682766821500018F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.romme.TahDoodle;
+				PRODUCT_NAME = TahDoodle;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94EAB9692766821500018F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.romme.TahDoodle;
+				PRODUCT_NAME = TahDoodle;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EAB96B2766821500018F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.romme.TahDoodle;
+				PRODUCT_NAME = TahDoodle;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		94EAB96C2766821500018F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogers.romme.TahDoodle;
+				PRODUCT_NAME = TahDoodle;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		94EAB96E2766821500018F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogers.romme.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TahDoodle (iOS)";
+			};
+			name = Debug;
+		};
+		94EAB96F2766821500018F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogers.romme.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TahDoodle (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EAB9712766821500018F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogers.romme.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TahDoodle (macOS)";
+			};
+			name = Debug;
+		};
+		94EAB9722766821500018F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7H3H9KT4YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogers.romme.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TahDoodle (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EAB9352766821400018F06 /* Build configuration list for PBXProject "TahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EAB9652766821500018F06 /* Debug */,
+				94EAB9662766821500018F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EAB9672766821500018F06 /* Build configuration list for PBXNativeTarget "TahDoodle (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EAB9682766821500018F06 /* Debug */,
+				94EAB9692766821500018F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EAB96A2766821500018F06 /* Build configuration list for PBXNativeTarget "TahDoodle (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EAB96B2766821500018F06 /* Debug */,
+				94EAB96C2766821500018F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EAB96D2766821500018F06 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EAB96E2766821500018F06 /* Debug */,
+				94EAB96F2766821500018F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EAB9702766821500018F06 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EAB9712766821500018F06 /* Debug */,
+				94EAB9722766821500018F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EAB9322766821400018F06 /* Project object */;
+}
